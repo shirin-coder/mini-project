@@ -1,0 +1,228 @@
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#FFFFFF, #EBDCFF);
+}
+
+#banner {
+    margin-top: 100px;
+    margin-bottom: 120px;
+    background-color: white;
+    width: 87.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    border: 2px solid #872BFF10;
+    padding: 20px 30px;
+    background-image: url(hero-bg.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner-container {
+    display: flex;
+}
+
+.banner-content h1 {
+    font-size: 70px;
+}
+
+.banner-content {
+    width: 50%;
+    /* font-weight: bold; */
+}
+
+.banner-content * {
+    margin-bottom: 20px;
+}
+
+.banner-content h1 span {
+    color: #f411cf;
+}
+
+.banner-content p {
+    font-weight: medium;
+    font-size: 18px;
+    color: #A8A8A8;
+}
+
+.btn {
+    background-color: #C72BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn2 {
+    /* background-color: #C72BFF; */
+    border-radius: 30px;
+    padding: 16px 32px;
+    /* color: white; */
+    cursor: pointer;
+    margin-right: 20px;
+    border: 2px solid #C72BFF;
+}
+
+.banner-img img {
+    width: 600px;
+}
+
+#service {
+    width: 87.5%;
+    margin: 120px auto 120px auto;
+}
+
+#story,
+#country {
+    width: 87.5%;
+    margin: 60px auto 120px auto;
+}
+
+.heading-content {
+    text-align: center;
+}
+
+.heading-content h4 {
+    color: #F411CF;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.heading-content h2 {
+    font-weight: bold;
+    font-size: 44px;
+    color: black;
+    margin-bottom: 60px;
+}
+
+#service-card {
+    display: flex;
+    gap: auto;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.card img {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.card h2 {
+    font-weight: semibold;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.card p {
+    color: #A8A8A8;
+}
+
+.story-card {
+    background-color: white;
+    padding: 48px 48px 48px 48px;
+    border-radius: 24px;
+    display: flex;
+    gap: 32px;
+}
+
+.story-content * {
+    margin-bottom: 25px;
+}
+
+#country-card-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#review-container {
+    width: 87.5%;
+    height: 257px;
+    border-radius: 15px;
+}
+
+#country-card-container h2 {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+#review {
+    width: 87.5%;
+    ;
+    margin: 120px auto 120px auto;
+}
+
+.review-info {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.review-card {
+    background-color: white;
+    height: 257px;
+    border-radius: 16px;
+    margin-bottom: 60px;
+}
+
+.text {
+    text-align: center;
+    padding: 25px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.review-info h4 {
+    color: #707070;
+}
+
+
+.footer {
+    display: flex;
+    width: 87.5%;
+    margin: 17px 123px 17px 123px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 70px;
+
+}
+
+.footer-info h3{
+    font-size: 16px;
+    color: #707070;
+}
+.footer-info{
+    padding: 20px;
+}
+
+
+.social-icons i {
+  font-size: 25px;
+  margin-left: 15px;
+  color: #5a34b3; /* purple */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
